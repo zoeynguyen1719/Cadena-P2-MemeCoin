@@ -3,7 +3,7 @@ const hre = require("hardhat");
 async function main() {
 
   const [owner] = await hre.ethers.getSigners();
-  const contractFactory = await hre.ethers.getContractFactory("MemeCoin");
+  const contractFactory = await hre.ethers.getContractFactory("Vision");
   const contract = await contractFactory.deploy();
   await contract.deployed();
 
