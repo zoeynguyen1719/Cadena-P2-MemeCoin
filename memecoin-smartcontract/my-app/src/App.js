@@ -84,7 +84,7 @@ function App() {
         setError("Install a MetaMask wallet to get our token.");
       }
     } catch (error) {
-      alert(error);
+      console.log(error);
     }
   }
 
